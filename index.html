@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Registro</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form" id="form" name="form">
+            <div class="container-inputs">
+                <input type="text" name="names" placeholder="Nombres">
+                <input type="text" name="email" placeholder="Correo electrónico">
+                <div class="sex">
+                    <input type="radio" name="sex" id="man" value="hombre">
+                    <label class="label-radio man" for="man">Hombre</label>
+                    <input type="radio" name="sex" id="women" value="mujer">
+                    <label class="label-radio women" for="women">Mujer</label>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">Acepto Términos y Condiciones</label>
+                </div>
+
+                <ul class="error" id="error">
+                </ul>
+            </div>
+            <input type="submit" class="btn" value="Registrate">
+        </form>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
